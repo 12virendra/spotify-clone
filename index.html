@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>spotify clone</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<body>
+<nav>
+ <ul>
+ <li class="brand" > <img src="spotifylogo.png" alt="spotify">spotify</li>
+ <li>Home</li>
+ <li>About</li>
+ </ul>
+</nav>
+
+<div class="container">
+ <div class="songlist">
+ <h1>Best of NCS - No Copyright Songs</h1>
+
+ <!-- ALL ARE SAME HERE -->
+ <div class="songItemContainer"> 
+ <div class="songItem">
+ <img src="spotifycover.png" alt="1">
+ <span class="songName">MAKHNA  </span>
+ <span  class="songlistplay"><span   class="timestamp">05:34 <i id="0" class=" far songItemPlay fa-play-circle"></i> </span></span>
+
+ </div>
+ <div  class="songItem">
+ <img src="spotifycover2.png" alt="2">
+ <span class="songName">Husn  </span>
+ <span  class="songlistplay"><span   class="timestamp">05:34 <i id="1" class=" far songItemPlay fa-play-circle"></i> </span></span>
+
+ </div>
+ <div class="songItem">
+ <img src="spotifycover3.png" alt="3">
+  <span class="songName">Pehle Bhi Main  </span>
+ <span  class="songlistplay"><span   class="timestamp">05:34 <i id="2" class=" far songItemPlay fa-play-circle"></i> </span></span>
+
+ </div>
+ <div class="songItem">
+ <img src="spotifycover4.png" alt="4">
+ <span class="songName">Thoda felling da rakh dhyan ve  </span>
+ <span class="songlistplay"><span  class="timestamp">05:34 <i id="3" class=" far songItemPlay fa-play-circle"></i> </span></span>
+
+ </div>
+ <div class="songItem">
+ <img src="spotifycover5.png"  alt="5">
+ <span class="songName">Lalkara </span>
+ <span class="songlistplay"><span   class="timestamp">05:34 <i id="4" class=" far songItemPlay fa-play-circle"></i> </span></span>
+
+ </div>
+ </div>
+ <!-- TO HERE -->
+ 
+ </div>
+ <div class="songbanner"></div>
+</div>
+  
+<div class="bottom">
+ <input type="range" name="range" id="myProgressBar" min="0" value ="0" max="100">
+ <div class="icons">
+ <i class="fas fa-3x solid fa-backward-step" id="previous"></i>
+ <i class="far fa-3x solid fa-circle-play" id="masterPlay"></i>
+ <i class="fas fa-3x solid fa-forward-step"id="next"></i>
+ </div>
+ <div class="songInfo">
+ <img src="spotifygif.png" width="60px" height="40px" alt="" id="gif"> <span id="masterSongName"></span> 
+ </div>
+</div>
+
+<script src="first.js"></script> 
+</body>
+</html>
